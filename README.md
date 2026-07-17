@@ -1,6 +1,6 @@
 # inif-rag-system
 
-A RAG system over the Iran National Innovation Fund's FAQ, built to learn RAG hands-on. Persian Q&A, Postgres + pgvector for retrieval, and a step-by-step build from baseline search to full generation.
+A Persian-language RAG system over the Iran National Innovation Fund's FAQ, using Postgres + pgvector for retrieval and generation. Built as a step-by-step pipeline from baseline search through to full answer generation.
 
 ## Stack
 
