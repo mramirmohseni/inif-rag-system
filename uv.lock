@@ -276,7 +276,7 @@ wheels = [
 [[package]]
 name = "inif-rag-system"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "hazm" },
     { name = "pandas" },
