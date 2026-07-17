@@ -1,7 +1,7 @@
 [project]
 name = "inif-rag-system"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Persian-language RAG system over the Iran National Innovation Fund's FAQ, using Postgres + pgvector for retrieval and generation."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
