@@ -13,6 +13,10 @@ DB_URL = (
     f"{os.environ['POSTGRES_DB']}"
 )
 
-EMBEDDING_MODEL = "BAAI/bge-m3"
+OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
+OPENROUTER_API_BASE = os.environ["OPENROUTER_API_BASE"]
+
+EMBEDDING_MODEL = "baai/bge-m3"   # was "BAAI/bge-m3" — OpenRouter uses lowercase/slash
 EMBEDDING_DIM = 1024
+
 FAQ_CSV = PROJECT_ROOT / "data" / "faq_qa_pairs.csv"
